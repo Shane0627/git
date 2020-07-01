@@ -83,7 +83,7 @@
     overflow: hidden;
     height: 680px;
     margin-left: -160px;
-    background:url('/assets/asset 9.jpeg') no-repeat;
+    background:url('./assets/asset 9.jpeg') no-repeat;
 }
 .cat .words{
     margin-left: 200px;
@@ -173,9 +173,13 @@
 .howpic{
     padding-top: 50px;
 }
+.howpic img:hover{
+    background-color: rgba(0,0,0,0.7);
+}
 .howpic img{
      margin: 14px;
      width:370px;
+     /* background-color: rgba(0,0,0,0.4); */
 }
 .volunteer{
     display: flex;
@@ -209,7 +213,7 @@
     margin-top: 20px;
 }
 .event{
-    background: url('/assets/asset 13.jpeg' )no-repeat;
+    background: url('./assets/asset 13.jpeg' )no-repeat;
     height: 400px;
     text-align: center;
     padding-top: 70px;
@@ -246,11 +250,13 @@
 }
 .btn-group .group:hover{
     background-color: #7abee9;
+    transition: 1s;
+
 }
 #box1{
     height: 100vh;
     width: 100%;
-    background-image: url('/assets/asset 15.jpeg');
+    background-image: url('./assets/asset 15.jpeg');
     background-size: cover;
     display: table;
     background-attachment: fixed;
@@ -277,7 +283,7 @@
     height: 550px;
     overflow: hidden;
     /* height: 680px; */
-    background: url('/assets/asset 18.jpeg' )no-repeat;
+    background: url('./assets/asset 18.jpeg' )no-repeat;
     background-size: 100%;
     background-position: center;
 }
