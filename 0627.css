@@ -10,7 +10,7 @@
 .logo img{
     width: 60px;
     margin-right: 20px;
-    margin-left: 90px;
+    margin-left: 60px;
 }
 .logo h1{
     font-size: 50px;
@@ -29,18 +29,17 @@
     align-items: center;
     padding: 0 80px ;
 }
+.icon i:hover{
+    color:#ff9933 ;
+}
 .tel i{
     color:#ff9933 ;
-    font-size: 16px;
-    padding: 10px;
-    margin-left: 50px;
 }
-
 .tpage{
     /* position: fixed;
     height: 70px; */
     width: 100%;
-    background-color: #fff;
+    background-color:rgba(255,255,255,0.6);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,6 +55,8 @@
 #item:hover{
     border-bottom: 3px solid #ff9933;
     padding-bottom: 20px;
+    transition: 0.5s;
+    
 }
 #home{
     border-bottom: 3px solid #ff9933;
@@ -65,6 +66,7 @@
     border:2px solid #0099ff ;
     background-color: #0099ff;
     color: #fff;
+    transition: 1s;
 }
 .tpage .money button{
     border:2px solid #ff9933;
@@ -72,22 +74,24 @@
     font-size: 12px;
     padding:15px 35px;
     background-color: #fff;
-    margin-right: 50px;
+    margin-right: 80px;
     margin-left: 60px;
 }
-.icon img{
+.icon i{
     border-radius: 40px;
 }
 .cat{
-    /* width: 100%; */
-    overflow: hidden;
-    height: 680px;
-    margin-left: -160px;
-    background:url('./assets/asset 9.jpeg') no-repeat;
+    width: 100%;
+    /* overflow: hidden; */
+    height: 600px;
+    /* margin-left: -160px; */
+    background:url('./assets/asset 9.jpeg');
+    background-position: center;
 }
 .cat .words{
-    margin-left: 200px;
-    margin-top: 190px;
+    padding-left: 100px;
+    padding-top: 190px;
+   
 }
 .words .ani{
     font-size: 60px;
@@ -117,9 +121,11 @@
 }
 .btn-volunteer:hover{
     background-color: #000;
+    transition: 0.5s;
 }
 .donet:hover{
     background-color: #000;
+    transition: 0.5s;
 }
 .btn-donet{
     margin-top: 30px;
@@ -250,7 +256,7 @@
 }
 .btn-group .group:hover{
     background-color: #7abee9;
-    transition: 1s;
+    transition: 0.5s;
 
 }
 #box1{
@@ -305,6 +311,10 @@
    width: 25%;
    height: 100%;
 }
+.pic4 img:hover{
+    background-color:rgba(0,0,0,0.7);
+}
+
 .footer{
    background-color: #222;
    width: 100%;
