@@ -17,6 +17,43 @@
     font-size: 50px;
     color: #535353;
 }
+.float-p{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 50;
+    top:50;
+    margin: auto;
+    font-size: 50px;
+}
+.float-up{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 50;
+    top:80;
+    margin: auto;
+    font-size: 30px;
+}
+.float-p .ph{
+    color: #ff9933;
+    background-color: #fff;
+    border-radius:50%;
+    padding:20px;
+    margin: 30px;
+    box-shadow:3px 3px 10px gray;
+    /* z-index: 1; */
+}
+
+.float-up .up{
+    color: #fff;
+    background-color: #ff9933;
+    border-radius:15%;
+    padding:20px;
+    margin: 30px;
+    z-index: 1;
+}
+
 
 .top{
     background-color: #333;
@@ -29,6 +66,9 @@
     align-items: center;
     padding: 0 120px ;
 }
+.icon i{
+    color: #fff;
+}
 .icon i:hover{
     color:#ff9933 ;
 }
@@ -36,14 +76,16 @@
     color:#ff9933 ;
 }
 .tpage{
-    /* position: fixed;
-    height: 70px; */
+    position: sticky;
+    /* height: 70px;  */
+    top:0;
     width: 100%;
-    background-color:rgba(255,255,255,0.6);
+    background-color:rgba(255,255,255,1);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+    z-index: 1;
 }
 
 .page a{
@@ -168,7 +210,7 @@
 .how{
     background-color: #fdfdfdef;
     text-align: center;
-    padding-top: 70px;
+    padding: 70px 95px 0;
 }
 .how h1{
     font-size: 50px;
@@ -182,8 +224,8 @@
 }
 .howpic{
     display: flex;
-    justify-content:left;
-    padding: 50px 60px;
+    justify-content: center;
+    padding: 50px 0 40px;
 }
 .pic p{
     color: #fff;
@@ -200,8 +242,9 @@
 .pic{
     width: 100%;
     height:450px;
-    margin-left: 50px;
+    margin: 30px;
     position: relative;
+    /* z-index: 0; */
 }
 .pic:hover{
     filter:contrast(2);
@@ -305,12 +348,10 @@
     }
 
 .video{
-    margin-top: 80px;
+    margin-top: 80px 0 40px;
     /* margin-left: 80px; */
     display: flex;
     justify-content: center;
-
-    
 }
 .pro{
     width: 1200px;
@@ -332,7 +373,7 @@
     width: 550px;
     margin: 0 20px;
 }
-.pro-f img,.pro-m img{
+.pro-f img, .pro-m img{
     width: 100px;
     border-radius: 50%;
 }
@@ -354,15 +395,29 @@
     line-height: 1.5;
 }
 
+.pro-f h1:hover, .pro-m h1:hover{
+    color:#ff9933;
+}
+
 .dog{
+    
+    display: flex;
+    justify-content: space-evenly;
     margin: 100px 0px;
     width: 100%;
-    height: 550px;
+    height: 400px;
     overflow: hidden;
     /* height: 680px; */
     background: url('./assets/asset 18.jpeg' )no-repeat;
     background-size: 100%;
     background-position: center;
+    color: #fff;
+    text-align: center;
+    padding-top: 120px;
+}
+.dog h1{
+    font-size: 70px;
+    line-height: 1.5;
 }
 .seeword{
     margin: 70px 0px;
@@ -390,7 +445,7 @@
 .footer{
    background-color: #222;
    width: 100%;
-   height: 450px;
+   height: 500px;
 }
 .footer p{
     color: #fff;
@@ -401,13 +456,38 @@
     display: flex;
     color: #fff;
     justify-content: center;
-    padding: 70px;
+    padding: 70px 0 40px;
     font-size: 25px;
 }
 .logof img{
     width: 60px;
     margin-right: 20px;
 }
-.foot{
-    padding: 40px;
+.social{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
 }
+.social1{
+    margin: 10px;
+    padding-bottom: 15px;
+
+}
+.tw{
+    color: #00aeef;
+}
+.fa-facebook-square{
+    color: #547cd5;
+}
+.fa-pinterest-square{
+    color: #cc3300;
+}
+.fa-invision{
+    color: #0075b6;
+}
+
+.foot{
+    padding: 20px;
+}
+
+
