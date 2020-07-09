@@ -1,6 +1,10 @@
-/* 從這開始編寫 */
 *{
     font-family: sans-serif;
+}
+
+.area{
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .top-bar{
@@ -73,7 +77,7 @@
 
 .banner{
     position: absolute;
-    top:80px;
+    top:0;
     left: 0;
     bottom: 0;
     right: 0;
@@ -208,7 +212,7 @@ text-align: left;
     border: 1px solid #d4d4d4;
     width: 90%;
 }
-
+/* 蔬菜類別 */
 .product-items .itemclass p{
     color: #86ae34;
     font-size: 12px;
@@ -313,4 +317,53 @@ text-align: left;
     color: #a5a5a5;
     flex-wrap: wrap;
     font-weight: 50;
+}
+
+/* .grayb3{
+    width: 100%
+    display: flex;
+} */
+
+.meal>img{
+    width: 100%;
+    height:120%;
+}
+.mealitem h2{
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    font-weight: 200;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.meal{
+    position: relative;
+    display: flex;
+}
+.mealitem{
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    text-align: center;
+}
+
+.mealitems{
+    display: flex;
+    flex-wrap: wrap;
+
+    /* width: 80%; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.meals{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }

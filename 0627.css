@@ -433,7 +433,17 @@
    width: 25%;
    height: 100%;
    vertical-align: bottom;
+    position: relative;
 }
+
+.bgo{
+    background-color: #ff9933;
+    width: 25%;
+    position: absolute;
+    /* top:0;
+    left:0; */
+}
+
 .pic4 img:hover{
     background-color:rgba(0,0,0,0.7);
 }

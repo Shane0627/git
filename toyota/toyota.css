@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "微軟正黑體";
+}
+.wrap{
+    width: 1200px;
+    margin: auto;
+}
+
+.bottomline h1{
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+    margin-top: 30px;
+}
+h1::after{
+    content: "";
+    height: 5px;
+    width: 50px;
+    margin-top: 20px;
+    background-color: #000000;
+}
+.area{
+    width: 960px;
+    margin: auto;
+}
+
+.index{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.index a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+    padding: 5px 40px;
+    border:1px dotted #cccccc;
+}
+/* 可調整 與3共用*/ 
+.grayblock{
+    background-color: #eeeeee;
+    width: 439px;
+    height:290px;
+    position: absolute;
+    opacity: 0.7;
+    right: 0;
+    top:30px;
+    z-index: -2;
+}
+
+/* 可調整 */
+.redblack{
+    background-color: #000;
+    width: 355px;
+    height: 388px;
+    z-index: 1;
+}
+
+/* 要共用 */
+.redblack .red{
+    background-color: red;
+    height: 109px;
+    width: 355px;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    font-size: 30px;
+}
+
+/* 可共用 */
+.red .laynum h1{
+    transform: rotate(90deg);
+    font-weight: 300;
+
+}
+
+/* 可共用 */
+.red .title h1{
+    text-align: center;
+    font-weight: 300;
+}
+
+/* 可調整  一三共用*/
+.grayword{
+    background-color: #dddddd;
+    width: 682px;
+    height: 275px;
+    margin-top:120px;
+    position: absolute;
+    margin-left: 50px;
+}
+/* 可共用 */
+.grayword h3{
+    color: red;
+    margin: 15px;
+}
+
+/* 可共用 */
+.grayword span{
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 5%;
+}
+/* 可共用 */
+.grayword h5{
+    font-size: 14px;
+    margin: 10px;
+    margin-left: 50px;
+}
+.firstcar{
+    margin-top: 100px;
+    position: relative;
+}
+
+.firstcar .videoad{
+    position: absolute;
+    top: 109px;
+    right: 80px;
+    z-index: -1;
+}
+/* 可共用 */
+.redblack .black{
+    color: #ffffff;
+}
+/* 可共用 */
+.redblack .black h3{
+    font-size: 30px;
+    margin: 10px;
+}
+/* 可共用 */
+.redblack .black h4{
+margin: 15px;
+line-height: 2;
+font-size: 18px;
+}
+
+/* -------第二區----- */
+
+.secondcar{
+    margin-top: 600px;
+    position: relative;
+}
+
+/* 可調整 */
+.secondcar .grayblock{
+    background-color: #eeeeee;
+    width: 518px;
+    height:413px;
+    opacity: 0.7;
+    position: absolute;
+    margin-right: 150px;
+    top:-70px;
+    z-index: -1;
+}
+/* 可調整 */
+.secondcar .redblack{
+    background-color: #000;
+    width: 355px;
+    height: 330px;
+    /* z-index: 1; */
+    position: absolute;
+    right: 0;
+    margin-top:-109px;
+}
+/* 可調整 */
+.secondcar .grayword{
+    background-color: #dddddd;
+    width: 682px;
+    height: 180px;
+    margin-top:-30px;
+    position: absolute;
+    right: 0;
+}
+
+/* -------第三區----- */
+.thired{
+    margin-top: 300px;
+    position: relative;
+}
+
+.thired .videoad{
+    position: absolute;
+    top: 109px;
+    right: 80px;
+    z-index: -1;
+}
+
+/* -------第四區------ */
+
+.forth{
+    margin-top: 600px;
+    position: relative;
+}
+
+.forth .grayblock{
+    background-color: #eeeeee;
+    width: 518px;
+    height:413px;
+    opacity: 0.7;
+    position: absolute;
+    margin-right: 150px;
+    top:-70px;
+    z-index: -1;
+}
+/* 可調整 */
+.forth .redblack{
+    background-color: #000;
+    width: 355px;
+    /* z-index: 1; */
+    position: absolute;
+    right: 0;
+    margin-top:-109px;
+}
+/* 可調整 */
+.forth .grayword{
+    background-color: #dddddd;
+    width: 682px;
+    height: 200px;
+    margin-top:-30px;
+    position: absolute;
+    right: 0;
+}
