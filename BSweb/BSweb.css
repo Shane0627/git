@@ -301,7 +301,6 @@ body {
     position: relative;
   }
   .banner .owl-carousel {
-    position: absolute;
     top: 0;
   }
   .logo-group {
