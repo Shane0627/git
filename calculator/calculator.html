@@ -20,36 +20,37 @@
 
         <table>
             <tr>
-                <td colspan="4"><input class="txt" type="text" disabled /></td>
+                <td colspan="4"><input class="txt" type="text" value="0" maxlength="8" minlength="1" disabled></td>
             </tr>
             <tr>
-                <td><input class="btn_click btn btn-danger" type="button" value="AC" /></td>
-                <td><input class="btn btn-info" type="button" value="+/-"/></td>
-                <td><input class="btn btn-info" type="button" value="%" /></td>
-                <td><input class="btn btn-info" type="button" value="÷" /></td>
+                <td><input id= "ac" class="btn_click btn btn-danger" type="button" value="AC"></td>
+                <td><input id = "del" class="btn_click btn btn-info" type="button" value="Del"></td>
+
+                <td><input id="persent" class="btn btn-info btn_txt" type="button" value="%" onclick="operBtn('0.0')"></td>
+                <td><input class="btn btn-info btn_txt" type="button" value="÷" onclick="operBtn('/')"></td>
             </tr>
             <tr>
-                <td><input class="btn btn-outline-warning" type="button" value="7"/></td>
-                <td><input class="btn btn-outline-warning" type="button" value="8"/></td>
-                <td><input class="btn btn-outline-warning" type="button" value="9"/></td>
-                <td><input class="btn btn-info" type="button" value="x"></td>
+                <td><input class="btn btn-outline-warning btn_txt" type="button" value="7" onclick="numBtn('7')"/></td>
+                <td><input class="btn btn-outline-warning btn_txt" type="button" value="8" onclick="numBtn('8')"/></td>
+                <td><input class="btn btn-outline-warning btn_txt" type="button" value="9" onclick="numBtn('9')"/></td>
+                <td><input class="btn btn-info btn_txt" type="button" value="x"  onclick="operBtn('x')"></td>
             </tr>
             <tr>
-                <td><input class="btn btn-outline-warning" type="button" value="4"/</td>
-                <td><input class="btn btn-outline-warning" type="button" value="5"/></td>
-                <td><input class="btn btn-outline-warning" type="button" value="6"/></td>
-                <td><input class="btn btn-info" type="button" value="-"></td>
+                <td><input class="btn btn-outline-warning btn_txt" type="button" value="4" onclick="numBtn('4')"/</td>
+                <td><input class="btn btn-outline-warning btn_txt" type="button" value="5" onclick="numBtn('5')"/></td>
+                <td><input class="btn btn-outline-warning btn_txt" type="button" value="6" onclick="numBtn('6')"/></td>
+                <td><input class="btn btn-info btn_txt" type="button" value="-"  onclick="operBtn('-')"></td>
             </tr>
             <tr>
-                <td><input class="btn btn-outline-warning" type="button" value="1"/></td>
-                <td><input class="btn btn-outline-warning" type="button" value="2"/></td>
-                <td><input class="btn btn-outline-warning" type="button" value="3"/></td>
-                <td><input class="btn btn-info" type="button" value="+"/></td>
+                <td><input class="btn btn-outline-warning btn_txt" type="button" value="1" onclick="numBtn('1')"/></td>
+                <td><input class="btn btn-outline-warning btn_txt" type="button" value="2" onclick="numBtn('2')"/></td>
+                <td><input class="btn btn-outline-warning btn_txt" type="button" value="3" onclick="numBtn('3')"/></td>
+                <td><input class="btn btn-info btn_txt" type="button" value="+"  onclick="operBtn('+')"/></td>
             </tr>
             <tr>
-                <td colspan="2"><input class="btn btn-outline-warning" type="button" value="0"/></td>
-                <td><input class="btn btn-info" type="button" value="."/></td>
-                <td><input class="btn btn-danger" type="button" value="="/></td>
+                <td colspan="2"><input class="btn btn-outline-warning btn_txt" type="button" value="0" onclick="numBtn('0')"/></td>
+                <td><input class="btn btn-info dot btn_txt" type="button" value="." onclick="numBtn('.')"/></td>
+                <td><input class="btn btn-danger btn_txt" type="button" value="=" onclick="equal()"/></td>
             </tr>
         </table>
 
@@ -57,8 +58,7 @@
 
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./calculator.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
