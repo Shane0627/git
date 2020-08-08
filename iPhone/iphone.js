@@ -13,7 +13,8 @@ var Product = {
                 color: '黃色',
                 colorValue: '#ffff00',
                 imageUrl: './img/iphone11-yellow-select-2019.png'
-            } {
+            } ,
+            {
                 color: '黑色',
                 colorValue: '#000',
                 imageUrl: './img/iphone11-black-select-2019.png'
