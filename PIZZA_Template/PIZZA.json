@@ -1,0 +1,137 @@
+{
+    "pizza_menu": [{
+            "name": "炭火肉食披薩",
+            "english_name": "Meat Lover's",
+            "big_price": 329,
+            "small_price": 229,
+            "description": "底層祕製炭火照燒醬，鹹甜口感搭配洋蔥提味 烘烤至恰到好處的肉脂焦香滋滋作響 火腿、培根及燻雞肉的三重層次與香濃起司完美融合 大口咬下超滿足！",
+            "picture": "asset 2.png"
+        },
+
+        {
+            "name": "美式嗆司臘腸披薩",
+            "english_name": "Jalapeno Sausage",
+            "big_price": 329,
+            "small_price": 229,
+            "description": "底層祕製炭火照燒醬，鹹甜口感搭配洋蔥提味 烘烤至恰到好處的肉脂焦香滋滋作響 火腿、培根及燻雞肉的三重層次與香濃起司完美融合 大口咬下超滿足！",
+            "picture": "asset 3.png"
+        },
+
+        {
+            "name": "龍蝦沙拉披薩",
+            "english_name": "Lobster Salad Pizza",
+            "big_price": 329,
+            "small_price": 229,
+            "description": "底層祕製炭火照燒醬，鹹甜口感搭配洋蔥提味 烘烤至恰到好處的肉脂焦香滋滋作響 火腿、培根及燻雞肉的三重層次與香濃起司完美融合 大口咬下超滿足！",
+            "picture": "asset 4.png"
+        },
+
+        {
+            "name": "總匯披薩",
+            "english_name": "Supreme",
+            "big_price": 329,
+            "small_price": 229,
+            "description": "底層祕製炭火照燒醬，鹹甜口感搭配洋蔥提味 烘烤至恰到好處的肉脂焦香滋滋作響 火腿、培根及燻雞肉的三重層次與香濃起司完美融合 大口咬下超滿足！",
+            "picture": "asset 5.png"
+        },
+
+        {
+            "name": "墨西哥嗆辣披薩",
+            "english_name": "Mexican(Spicy)Pizza",
+            "big_price": 329,
+            "small_price": 229,
+            "description": "底層祕製炭火照燒醬，鹹甜口感搭配洋蔥提味 烘烤至恰到好處的肉脂焦香滋滋作響 火腿、培根及燻雞肉的三重層次與香濃起司完美融合 大口咬下超滿足！",
+            "picture": "asset 6.png"
+        },
+
+        {
+            "name": "西西里燻雞披薩",
+            "english_name": "House Smoked Chicken",
+            "big_price": 329,
+            "small_price": 229,
+            "description": "底層祕製炭火照燒醬，鹹甜口感搭配洋蔥提味 烘烤至恰到好處的肉脂焦香滋滋作響 火腿、培根及燻雞肉的三重層次與香濃起司完美融合 大口咬下超滿足！",
+            "picture": "asset 7.png"
+        },
+
+        {
+            "name": "海鮮披薩",
+            "english_name": "Seafood",
+            "big_price": 329,
+            "small_price": 229,
+            "description": "底層祕製炭火照燒醬，鹹甜口感搭配洋蔥提味 烘烤至恰到好處的肉脂焦香滋滋作響 火腿、培根及燻雞肉的三重層次與香濃起司完美融合 大口咬下超滿足！",
+            "picture": "asset 8.png"
+        },
+
+        {
+            "name": "地中海漁夫披薩",
+            "english_name": "Mediterranean Fisherman",
+            "big_price": 329,
+            "small_price": 229,
+            "description": "底層祕製炭火照燒醬，鹹甜口感搭配洋蔥提味 烘烤至恰到好處的肉脂焦香滋滋作響 火腿、培根及燻雞肉的三重層次與香濃起司完美融合 大口咬下超滿足！",
+            "picture": "asset 9.png"
+        },
+
+        {
+            "name": "夏威夷披薩",
+            "english_name": "Hawaiian",
+            "big_price": 329,
+            "small_price": 229,
+            "description": "底層祕製炭火照燒醬，鹹甜口感搭配洋蔥提味 烘烤至恰到好處的肉脂焦香滋滋作響 火腿、培根及燻雞肉的三重層次與香濃起司完美融合 大口咬下超滿足！",
+            "picture": "asset 10.png"
+        },
+
+        {
+            "name": "蔬菜披薩 (奶素)",
+            "english_name": "Vegetarian",
+            "big_price": 329,
+            "small_price": 229,
+            "description": "底層祕製炭火照燒醬，鹹甜口感搭配洋蔥提味 烘烤至恰到好處的肉脂焦香滋滋作響 火腿、培根及燻雞肉的三重層次與香濃起司完美融合 大口咬下超滿足！",
+            "picture": "asset 11.png"
+        },
+
+        {
+            "name": "蘋果肉桂披薩",
+            "english_name": "Apple Cinnamon Pizza",
+            "big_price": 329,
+            "small_price": 229,
+            "description": "底層祕製炭火照燒醬，鹹甜口感搭配洋蔥提味 烘烤至恰到好處的肉脂焦香滋滋作響 火腿、培根及燻雞肉的三重層次與香濃起司完美融合 大口咬下超滿足！",
+            "picture": "asset 12.png"
+        },
+
+        {
+            "name": "義式海陸豪華披薩",
+            "english_name": "Deluxe",
+            "big_price": 329,
+            "small_price": 229,
+            "description": "底層祕製炭火照燒醬，鹹甜口感搭配洋蔥提味 烘烤至恰到好處的肉脂焦香滋滋作響 火腿、培根及燻雞肉的三重層次與香濃起司完美融合 大口咬下超滿足！",
+            "picture": "asset 13.png"
+        },
+
+        {
+            "name": "洋食黃金脆雞披薩",
+            "english_name": "Popcorn Chicken",
+            "big_price": 329,
+            "small_price": 229,
+            "description": "底層祕製炭火照燒醬，鹹甜口感搭配洋蔥提味 烘烤至恰到好處的肉脂焦香滋滋作響 火腿、培根及燻雞肉的三重層次與香濃起司完美融合 大口咬下超滿足！",
+            "picture": "asset 14.png"
+        },
+
+        {
+            "name": "波隆那臘腸披薩",
+            "english_name": "Bologna Sausage",
+            "big_price": 329,
+            "small_price": 229,
+            "description": "底層祕製炭火照燒醬，鹹甜口感搭配洋蔥提味 烘烤至恰到好處的肉脂焦香滋滋作響 火腿、培根及燻雞肉的三重層次與香濃起司完美融合 大口咬下超滿足！",
+            "picture": "asset 15.png"
+        },
+
+        {
+            "name": "日式燒肉披薩",
+            "english_name": "Japanese BBQ pork",
+            "big_price": 329,
+            "small_price": 229,
+            "description": "底層祕製炭火照燒醬，鹹甜口感搭配洋蔥提味 烘烤至恰到好處的肉脂焦香滋滋作響 火腿、培根及燻雞肉的三重層次與香濃起司完美融合 大口咬下超滿足！",
+            "picture": "asset 16.png"
+        }
+    ]
+}
