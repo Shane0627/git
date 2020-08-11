@@ -62,7 +62,7 @@
         <div class='jumbotron'>Pizza Template</div>
         <div class='row d-flex  justify-content-center'></div>
     </div>
-    <!-- 小卡樣板 -->
+    <!-- 小pizza卡樣板 -->
     <template id='cardPizza'> 
         <div class="card" style="width: 18rem;">
             <img src="" class="card-img-top" alt="...">
@@ -119,7 +119,7 @@
         // }
 
         // var row = $g('.row');
-        var row = document.querySelector('.row');
+        var row = document.querySelector('.row'); //最一開始的<div .row>空間
         const url = 'https://raw.githubusercontent.com/Shane0627/FileStorage/master/PIZZA.json';
         
         
@@ -139,8 +139,8 @@
                 let card = document.querySelector('#cardPizza');
                 console.log(card);
                 pizzaArray.forEach(function(item){
-                    let cloneContent = card.content.cloneNode(true);    
-                    console.log(item);
+                    let cloneContent = card.content.cloneNode(true);    //複製小卡結點
+                    // console.log(item);
                     cloneContent.querySelector("img").src = item.picture;
                     cloneContent.querySelector("h5").innerText = item.name;
                     cloneContent.querySelector("p").innerText = item.english_name;
