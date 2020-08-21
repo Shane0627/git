@@ -6,18 +6,26 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
 
-    <title>iPhone</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+
+    <title>Shane iPhone store</title>
 
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
             list-style: none;
         }
+
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+
         /* .select {
             display: flex;
             flex-direction: column;
@@ -42,7 +50,7 @@
         /* } */
 
 
-        .btngroup>button{
+        .productBtnGroup>button {
             margin: 10px;
             padding: 10px;
         }
@@ -59,24 +67,24 @@
     </nav>
 
     <div class="container">
-        <div class="btngroup row d-flex mb-3 justify-content-center">
-            <button id = iphone class="btn btn-dark">IPhone</button>
-            <button id = ipad class="btn btn-dark">IPad</button>
-            <button id = MacPro class="btn btn-dark">MacPro</button>
+        <div class="productBtnGroup row d-flex mb-3 justify-content-center">
+            <button id=iphone class="btn btn-dark" onclick="InitProduct(this.innerText)">IPhone</button>
+            <button id=ipad class="btn btn-dark" onclick="InitProduct(this.innerText)">IPad</button>
+            <button id=MacPro class="btn btn-dark" onclick="InitProduct(this.innerText)">MacPro</button>
         </div>
 
         <div class="row">
             <div class=" col-12 col-md-6">
-                <img id="product-img"  class="img-fluid"> 
+                <img id="product-img" class="img-fluid">
                 <!-- src 跟 alt沒有特別指令可以刪除 -->
             </div>
 
             <div class="col-12 col-md-6">
-                <div id = "color" class="row" style="box-sizing: border-box;"></div>
-                <div id = "type" class="row"></div>
-                <div id = "price" class="row"></div>
-                    <!-- <button btn btn-> -->
-                    <!-- <button class="col-md-4 box btn btn-outline-dark">
+                <div id="color" class="row" style="box-sizing: border-box;"></div>
+                <div id="type" class="row"></div>
+                <div id="price" class="row"></div>
+                <!-- <button btn btn-> -->
+                <!-- <button class="col-md-4 box btn btn-outline-dark">
                         <div class='item'>
                             <img src="./img/finish-white-201909.jpg" alt="">
                         </div>
@@ -133,15 +141,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
 
 
     <script src="./iphone.js"></script>
