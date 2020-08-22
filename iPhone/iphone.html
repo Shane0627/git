@@ -50,7 +50,7 @@
         /* } */
 
 
-        .productBtnGroup>button {
+        #productBtnGroup>button {
             margin: 10px;
             padding: 10px;
         }
@@ -58,18 +58,20 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">iPhone 11</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-    </nav>
+    </nav> -->
 
     <div class="container">
-        <div class="productBtnGroup row d-flex mb-3 justify-content-center">
+        <div id="productBtnGroup" class="row d-flex mb-3 justify-content-center">
             <button id=iphone class="btn btn-dark" onclick="InitProduct(this.innerText)">IPhone</button>
-            <button id=ipad class="btn btn-dark" onclick="InitProduct(this.innerText)">IPad</button>
+
+            <button id=iPad class="btn btn-dark" onclick="InitProduct(this.innerText)">IPad</button>
+
             <button id=MacPro class="btn btn-dark" onclick="InitProduct(this.innerText)">MacPro</button>
         </div>
 
@@ -83,61 +85,6 @@
                 <div id="color" class="row" style="box-sizing: border-box;"></div>
                 <div id="type" class="row"></div>
                 <div id="price" class="row"></div>
-                <!-- <button btn btn-> -->
-                <!-- <button class="col-md-4 box btn btn-outline-dark">
-                        <div class='item'>
-                            <img src="./img/finish-white-201909.jpg" alt="">
-                        </div>
-                        <div class="text-center">
-                            <p> white</p>
-                        </div>
-                    </button>
-                    <button class="col-md-4 box">
-                        <div class="item">
-                            <img src="./img/finish-black-201909.jpg" alt="">
-                        </div>
-                        <div class="text-center">
-                            <p>block</p>
-                        </div>
-                    </button>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-4 box">
-                        <div class="item">
-                            <img src="./img/finish-green-201909.jpg" alt="">
-                        </div>
-                        <div class="text-center">
-                            <p>green</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 box">
-                        <div class="item">
-                            <img src="./img/finish-yellow-201909.jpg" alt="">
-                        </div>
-                        <div class="text-center">
-                            <p>yellow</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 box">
-                        <div class="item">
-                            <img src="./img/finish-purple-201909.jpg" alt="">
-                        </div>
-                        <div class="text-center">
-                            <p>purple</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 box">
-                        <div class="item">
-                            <img src="./img/finish-red-201909.jpg" alt="">
-                        </div>
-                        <div class="text-center">
-                            <p>red</p>
-                        </div>
-                    </div>
-                </div> -->
             </div>
         </div>
     </div>

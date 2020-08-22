@@ -8,7 +8,7 @@ var Product = {
         OutWard: [{
                 color: '紅色',
                 colorValue: '#ff0000',
-                imgUrl: './img/iphone11-red-select-2019.png'
+                imgUrl: './img/iphone11-red-select.png'
             },
             {
                 color: '黃色',
@@ -22,7 +22,7 @@ var Product = {
             },
         ],
         Spec: {
-            Storage: [{
+            Storge: [{
                     size: '64GB',
                     fit: 24900
                 },
@@ -37,22 +37,26 @@ var Product = {
             ]
         }
     },
-
     IPad: {
         Detail: {
             productName: 'iPad',
             baseImgUrl: './img/ipad-pro-11-silver-TW.png'
         },
         OutWard: [{
-                color: '銀色',
-                colorValue: '#b9aeae',
-                imageUrl: './img/ipad-pro-11-silver-TW.png'
-            },
-            {
                 color: '太空灰色',
                 colorValue: '#6e6969',
-                imageUrl: './img/ipad-pro-11-spacegray_TW.png'
+                imageUrl: './img/ipad-spacegray.png'
             },
+            {
+                color: '銀色',
+                colorValue: '#b9aeae',
+                imageUrl: './img/ipad--silver_TW.png'
+            },
+            {
+                color:'金色',
+                colorValue:'#ceb7a8',
+                imageUrl:'./img/ipad-gold-_TW.png'
+            }
         ],
         spec: {
             storge: [{
@@ -61,26 +65,25 @@ var Product = {
                 },
                 {
                     size: '128GB',
-                    fir: 13900
+                    fit: 13900
                 },
             ]
         }
-
     },
     MacPro: {
         Detail: {
             productName: 'MacPro 13',
-            baseImgUrl: './img/mbp13touch-space-gallery1-201907.png'
+            baseImgUrl: './img/mbp13touch-silver_GEO_TW.jpg'
         },
         OutWard: [{
                 color: '太空灰色',
                 colorValue: '#6e6969',
-                imageUrl: './img/mbp13touch-sp'
+                imageUrl: './img/mbp13touch-space-202005_GEO_TW.jpg'
             },
             {
                 color: '銀色',
                 colorValue: '#b9aeae',
-                imageUrl: './img/mbp13touch-silver.png'
+                imageUrl: './img/mbp13touch-silver_GEO_TW.jpg'
             },
         ],
         Spec: {
@@ -168,7 +171,7 @@ function InitProduct(product) {
         colorI.classList.add('fas');
         colorI.classList.add('fa-circle');
         colorI.classList.add('display-4');
-        colorI.style.color = itme.colorValue;
+        colorI.style.color = item.colorValue;
 
 
         colorSpan.innerText = item.color;
