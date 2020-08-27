@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "微軟正黑體";
+}
+
+.place_marker{
+    width: 20px;
+    margin:4px;
+}
+.msg-box{
+    height: 100px;
+    width: 85%;
+    background-color: #eee;
+}
+
+.manpic{
+    width: 70px;
+    height: 70px;
+}
+
+.path a{
+    text-decoration: none;
+}
+
+.pathlink{
+    color: black;
+    margin-left: 23px;
+    line-height :40px;    
+}
+
+.pathinfo{
+    color:#4ebeba;
+    border-left: 3px solid #4ebeba;
+    padding-left: 20px;
+    line-height :40px;  
+    text-decoration: none;
+}
+
+.pathlink:hover{
+        color:#4ebeba;
+        /* padding-bottom: 20px; */
+        transition: 0.2s;
+}
+.pathinfo:hover{
+        color:#4ebeba;
+        /* padding-bottom: 20px; */
+        transition: 0.5s;
+}
