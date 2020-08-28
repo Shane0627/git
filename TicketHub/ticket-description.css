@@ -46,6 +46,11 @@
     border-color: #25bbc5 !important;
     background-color: #25bbc5 !important ;
 }
+.path{
+    position: sticky;
+    right: 0;
+    top: 10px;
+}
 
 .path a{
     text-decoration: none;
@@ -76,4 +81,13 @@
         color:#25bbc5;
         /* padding-bottom: 20px; */
         transition: 0.5s;
+}
+
+.icon{
+    position: absolute;
+    right: 0;
+}
+
+.originprice{
+    text-decoration:line-through;
 }
