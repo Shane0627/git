@@ -8,6 +8,12 @@
 .container h1{
     color: #25bbc5;
 }
+.foodstyle{
+    padding: 30px;
+}
+.location{
+    padding: 15px;
+}
 
 .place_marker{
     width: 20px;
@@ -83,6 +89,10 @@
         transition: 0.5s;
 }
 
+.pastview{
+    box-sizing: border-box;
+}
+
 .icon{
     position: absolute;
     right: 0;
@@ -90,4 +100,5 @@
 
 .originprice{
     text-decoration:line-through;
+    color:#ccc;
 }
