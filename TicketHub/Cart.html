@@ -16,26 +16,23 @@
 
 <body>
     <h1>TicketHub</h1>
-    <div class="bg-light">
-        <div class="container">
-            <ol class="row cartProcess">
-                <li class="breadcrumb-item"><a href="#">購物車</a></li>
-                <a class="breadcrumb-item active" aria-current="page" href="#">填寫資料與付款</a>
-                <a class="breadcrumb-item active" aria-current="page" href="#">訂購完成</a>
-                <!-- 文字無法貼齊 -->
-            </ol>
-        </div>
-        <div class="container bg-white">
-            <div class="cartContent box p-3">
-                <div>
-                    <h2>購物車</h2>
-                </div>
-                <hr>
-                <div class="row">
-                    <div class="input-group-text check">
-                        <input type="checkbox" aria-label="Checkbox for following text input">
-                    </div>
-                    <div class="cartimg row">
+
+    <div class="container">
+        <ol class="row cartProcess">
+            <li class="breadcrumb-item"><a href="#">購物車</a></li>
+            <a class="breadcrumb-item active" aria-current="page" href="#">填寫資料與付款</a>
+            <a class="breadcrumb-item active" aria-current="page" href="#">訂購完成</a>
+            <!-- 文字無法貼齊 -->
+        </ol>
+    </div>
+    <div class="container bg-white col-10">
+        <div class="cartContent box p-3">
+            <div>
+                <h2>購物車</h2>
+            </div>
+            <hr>
+            <div class="">
+                <!-- <div class="cartimg row">
                         <div>
                             <img src="https://picsum.photos/100/50/?random=1">
                         </div>
@@ -59,23 +56,48 @@
                     <div id=trashcan>
                         <img src="./img/deletecan.png" alt="">
                     </div>
+                </div> -->
+                <div class="table-box ">
+                    <div class="text-center statistics d-flex">
+                        <div id="productImg" class="col-2 d-flex flex-wrap">
+                            <P class="w-100">img</P>
+                        </div>
+                        <div id="productTitle" class="col-3 d-flex flex-wrap">
+                            <p class="w-100">票券名稱</p>
+                        </div>
+                        <div id="unit" class="col-3 d-flex flex-wrap">
+                            <p class="w-100">張數</p>
+                        </div>
+                        <!-- <div><p>單價</p></div> -->
+                        <div id="totalPrice" class="col-3 d-flex flex-wrap">
+                            <p class="w-100">總價</p>
+                        </div>
+                        <div id="deleteCan" class="col-1 d-flex flex-wrap">
+                            <p class="w-100">刪除</p>
+                        </div>
+                    </div>
                 </div>
+                <hr>
+            </div>
+            <div class="d-flex align-item-end justify-content-end">
+                <input id="gopay" type="button" value="前往結帳" class="btn btn-primary">
             </div>
 
-        </div>
 
+            <script src="./Cart.js"></script>
 
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-    </script>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossorigin="anonymous">
+            </script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+                integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+                crossorigin="anonymous">
+            </script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+                integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+                crossorigin="anonymous">
+            </script>
 </body>
 
 </html>
